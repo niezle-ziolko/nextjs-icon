@@ -1,14 +1,14 @@
 {
-  "name": "next-icon",
+  "name": "nextjs-icon",
   "version": "1.0.0",
   "description": "A package enabling the implementation of .svg icons using the Icon component, imports icons inline.",
-  "homepage": "https://github.com/niezle-ziolko/next-icon#readme",
+  "homepage": "https://github.com/niezle-ziolko/nextjs-icon#readme",
   "bugs": {
-    "url": "https://github.com/niezle-ziolko/next-icon/issues"
+    "url": "https://github.com/niezle-ziolko/nextjs-icon/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/niezle-ziolko/next-icon.git"
+    "url": "git+https://github.com/niezle-ziolko/nextjs-icon.git"
   },
   "license": "MIT",
   "author": "niezle-ziolko",
@@ -16,6 +16,7 @@
   "main": "index.js",
   "peerDependencies": {
     "swr": "*",
+    "next": "*",
     "react": "*",
     "react-dom": "*"
   },
@@ -24,7 +25,6 @@
     "src/Icon.js"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npm run dev"
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
