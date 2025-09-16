@@ -1,6 +1,6 @@
 {
   "name": "nextjs-icon",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A package enabling the implementation of .svg icons using the Icon component, imports icons inline.",
   "homepage": "https://github.com/niezle-ziolko/nextjs-icon#readme",
   "bugs": {
@@ -20,10 +20,6 @@
     "react-dom": "^19.0.0",
     "swr": "^2.2.0"
   },
-  "files": [
-    "index.js",
-    "src/SvgIcon.js"
-  ],
   "scripts": {
     "test": "next build"
   },
