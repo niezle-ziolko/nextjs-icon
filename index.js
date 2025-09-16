@@ -1,3 +1,3 @@
-import Icon from "./src/icon";
+import Icon from "./src/SvgIcon";
 
 export default Icon;

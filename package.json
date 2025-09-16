@@ -25,6 +25,9 @@
     "src/Icon.js"
   ],
   "scripts": {
-    "test": "next dev"
+    "test": "next build"
+  },
+  "dependencies": {
+    "dompurify": "^3.2.6"
   }
 }
